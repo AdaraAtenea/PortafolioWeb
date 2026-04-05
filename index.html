@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8" />
+      <title>SHEYLA RAMIREZ | Software Engineer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/three@0.155/build/three.min.js"></script>
+      <link rel="stylesheet" href="css/styles3.css">
+      <link rel="icon" href="logo/logo5.png" type="image/png">
+    </head>
+    
+    <body>
+      <header class="main-header">
+        <div class="header-container">
+          <div class="header-left-side">
+            <img src="logo/logo5.png" class="logo-nav" alt="SR Logo">
+          </div>
+        </div>
+      </header>
+
+      <div class="space-planets">
+        <span class="code-fragment p1" data-speed="0.1">&lt;html&gt;</span>
+        <span class="code-fragment p2" data-speed="0.3">const data = []</span>
+        <span class="code-fragment p3" data-speed="0.2">&lt;div&gt;</span>
+        <span class="code-fragment p4" data-speed="0.4">{ function }</span>
+        <span class="code-fragment p5" data-speed="0.1">&lt;/&gt;</span>
+        <span class="code-fragment p6" data-speed="0.25">main.js</span>
+        <span class="code-fragment p7" data-speed="0.35">padding: 0;</span>
+        <span class="code-fragment p8" data-speed="0.15">boolean</span>
+        <span class="code-fragment p9" data-speed="0.2">async await</span>
+        <span class="code-fragment p10" data-speed="0.3">&lt;section&gt;</span>
+        <span class="code-fragment p11" data-speed="0.4">npm install</span>
+        <span class="code-fragment p12" data-speed="0.2">git push</span>
+      </div>
+
+      <section class="hero">
+        <div class="hero-left">
+          <h1>Elevando el Front-end con lógica de sistemas y visión Full-stack</h1>
+            <p>Ingeniera en Sistemas Computacionales | Especialidad en Administración de Servicios Web</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn secondary">Ver Proyectos</a>
+              <a href="#contact" class="btn secondary">Hablemos</a>
+            </div>
+        </div>
+        <div class="hero-canvas"></div>
+      </section>
+
+      <section class="section academic" id="about">
+        <div class="section-content">
+          <h2>Sobre Mí</h2><br><br>
+            <div class="academic-card">
+              <h3>Ingeniera en Sistemas Computacionales especializada en Administración de Servicios Web.</h3>
+              <h3>Cuento con experiencia en el desarrollo de soluciones digitales escalables, programación y gestión de bases de datos.</h3>
+              <h3>Profesional disciplinada y orientada a resultados.</h3>
+            </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-content">
+          <h2>Experiencia Profesional</h2>
+          <p class="section-subtitle">Páginas Web</p>
+            <div class="projects-grid">
+              <div class="project-card" onclick="toggleCard(this)">
+                <h3>Landing Page SIMETRIC GI | "HIGH PARK POLANCO"</h3>
+                <p><a href="https://simetric.mx/landing/HPP/" target="_blank" style="color:#e25fff;">Ver Página Web</a></p>
+                <div class="extra-info">
+                  <h4>Proyecto enfocado en la interactividad y la experiencia de usuario (UX) para la venta de departamentos exclusivos.</h4>
+                  <hr>
+                  <ul><br>
+                    <li>Uso de JavaScript para galerías interactivas y efectos de scroll que elevan la percepción de exclusividad.</li>
+                    <li>Integración con PHP para la gestión de formularios de contacto y validación de datos en el servidor.</li>
+                    <li>Estructura en HTML/CSS orientada al rendimiento, asegurando que las imágenes de gran formato no afecten la velocidad de carga.</li>
+                    <br>
+                    <li>Resultado: </li>
+                    <p> Interfaz fluida que responde a las acciones del usuario, reforzando la confianza en la marca.</p>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card" onclick="toggleCard(this)">
+                <h3>Landing Page SIMETRIC GI | "SPOT NAPOLES KANSAS"</h3>
+                <p><a href="https://simetric.mx/landing/Kansas/" target="_blank" style="color:#e25fff;">Ver Página Web</a></p>
+                <div class="extra-info">
+                  <hr>
+                  <ul><br>
+                    <li>Actualización de la página en el diseño y funcionalidades.</li>
+                    <li>Integración con PHP para la gestión de formularios de contacto y validación de datos en el servidor.</li>
+                    <li>Estructura en HTML/CSS orientada al rendimiento, asegurando que las imágenes de gran formato no afecten la velocidad de carga.</li>
+                    <br>
+                    <li>Resultado: </li>
+                    <p> Interfaz actualizada y fluida que responde a las acciones del usuario.</p>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-card" onclick="toggleCard(this)">
+                <img src="img/capturacrm1.png" class="card-preview-img">
+                  <h3>Sistema de Gestión Interno de la Empresa</h3>
+                  <p style="font-size:10px;">CRM de la empresa para la gestión de clientes.</p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-content">
+          <h2>Contacto</h2>
+            <div class="contact-card">
+              <p>Email: <span>ramiresmzhey12@gmail.com</span></p>
+              <p class="socials">
+                <a href="https://www.linkedin.com/in/sheyla-ramirez-mendez-50b953185" target="_blank">LinkedIn</a> 
+                | 
+                <a href="https://wa.me/525571684227?text=Hola,%20vi%20tu%20portafolio%20y%20me%20interesa%20contactarte" target="_blank">WhatsApp</a>
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <script src="js/main3.js"></script>
+</body>
+</html>
